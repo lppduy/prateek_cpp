@@ -22,7 +22,7 @@ int main()
   
   float simpleInterest = (p*r*t) / 100;
 
-  cout << simpleInterest;
+  cout << floor(simpleInterest);
   
   return 0;
 }
